@@ -5,6 +5,8 @@
  */
 
 const Files = require(require('path').join(__dirname, 'js', 'Main.js')).Files;
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
 if(!process.send) {
 
