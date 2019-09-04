@@ -18,3 +18,4 @@ process.on('message', function(content) {
 
 }
 client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_CLIENT);
